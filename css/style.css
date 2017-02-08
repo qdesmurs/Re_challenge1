@@ -44,6 +44,7 @@ h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: lighter;
     text-transform: uppercase;
+    margin-bottom: 1.8em;
 }
 h1:hover {
     color: yellow;
@@ -87,7 +88,10 @@ main {
     width: 1020px;
     margin: 0 auto;
     box-sizing: border-box;
-}
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
 main > p {
     border-bottom: 1px solid #e8e8e8;
     font-size: 18px;
@@ -103,7 +107,9 @@ article {
     display: flex;
     flex-direction: column;
     width: 25%;
+    margin-top: 3em;
 }
 h2 {
     text-transform: uppercase;
+    font-size: 18px;
 }
